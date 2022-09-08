@@ -1,0 +1,337 @@
+        @font-face {
+            font-family 'Vazir';
+            src url('httptheme.blogfa.comfontsVazir.eot');
+            src url('httptheme.blogfa.comfontsVazir.eot#iefix') format('embedded-opentype'),
+            url('httptheme.blogfa.comfontsVazir.woff') format('woff'),
+            url('httptheme.blogfa.comfontsVazir.ttf') format('truetype');
+            font-weight normal;
+            font-style normal;
+        }
+
+        a, h1, h2, h3, h4, h5, h6, span, ul {
+            padding 0;
+            text-decoration none;
+            margin 0;
+            list-style none;
+        }
+
+        video {
+            max-width 100%;
+            height auto;
+            display block;
+            margin 0 auto;
+            border-radius 20px;
+        }
+
+        table {
+            width 100% !important;
+            height auto;
+        }
+
+        blockquote {
+            border-right 3px solid #ccc5b9;
+            padding-right 10px;
+        }
+
+        a {
+            color #222222;
+        }
+
+        ahover {
+            color #f2132d;
+        }
+
+
+         {
+            box-sizing border-box;
+        }
+
+        body {
+            background-color #f5f6f8;
+            font-family Vazir;
+            font-size 14px;
+            font-weight normal;
+            color #3d3d3d;
+            word-wrap break-word;
+            margin 0;
+            padding 0;
+            direction rtl;
+            line-height 1.7em;
+        }
+
+        #header {
+            background-color #fff;
+            box-shadow 0 0 4px 0 rgba(0, 0, 0, 0.07);
+            text-align center;
+            padding 6px;
+        }
+
+        .blog-title {
+            padding 20px 0;
+            font-weight bold;
+        }
+
+        .blog-desctiption {
+            padding 13px 0;
+            font-weight normal;
+            font-size inherit;
+        }
+
+        .menu {
+            border-top 1px solid #ebebeb;
+             font-size 12px; 
+        }
+
+        .menu ul li {
+            list-style none;
+            padding 10px 10px 4px;
+            display inline-block;
+            margin-left 8px;
+        }
+
+        #wrap {
+            padding 5px;
+            margin 30px auto;
+            width 100%;
+            max-width 1010px;
+
+        }
+
+        #main {
+            float left;
+            width 66.66666667%;
+            box-sizing border-box;
+            padding 0 6px;
+        }
+
+        #main-2 {
+            width 100%;
+        }
+
+        .post {
+            width 100%;
+            background-color #fff;
+            padding 15px;
+            margin 0 0 20px;
+            box-shadow 0 0 4px 0 rgba(0, 0, 0, 0.07)
+        }
+
+        .post a {
+            color #ff697a;
+        }
+
+        .post ahover {
+            color #f2132d;
+        }
+
+        .post  .title  a  h3 {
+            padding 8px 0 12px;
+            font-size 23px;
+            color #000;
+        }
+
+        .post  .title  a  h3hover {
+            color #f2132d;
+        }
+
+        .post  .meta {
+            font-size 13px;
+            padding-bottom 10px;
+        }
+
+        .post  .content {
+            padding-top 5px;
+            text-align justify;
+            line-height 2em;
+        }
+
+        .post  .content img {
+            padding 5px 0;
+            max-width 100%;
+            height auto;
+        }
+
+        .post  .content imghover {
+            opacity .9;
+        }
+
+        .post .tag {
+            margin 25px 0 2px;
+            padding 10px 0 0;
+            display flow-root;
+        }
+
+
+        a h4 {
+            display inline-block;
+            font-weight normal;
+        }
+
+        a.read-more {
+            background-color #f2132d;
+            color #fff;
+            padding 4px 20px;
+            border-radius 20px;
+        }
+
+        a.read-morehover {
+            background-color #222222;
+            color #fff;
+        }
+
+        .pagin {
+            text-align center;
+            margin 20px 0;
+        }
+
+        .pagin a {
+            background #f2132d;
+            border 2px solid #fff;
+            color #fff;
+            padding 4px 26px;
+            -webkit-border-radius 20px;
+            -moz-border-radius 20px;
+            border-radius 20px;
+            margin 10px 0;
+        }
+
+        .pagin ahover {
+            background #222222;
+        }
+
+        #side {
+            float right;
+            width 33.33333333%;
+            padding 0 6px
+        }
+
+        .side-block {
+            background-color #fff;
+            padding 12px;
+            margin 0 0 20px;
+            box-shadow 0 0 4px 0 rgba(0, 0, 0, 0.07);
+        }
+
+        .side-block  .title {
+            position relative;
+            width 100%;
+            padding 0 0 10px;
+            margin 0 0 15px;
+            border-bottom 1px solid #ebebeb
+        }
+
+        .side-block  .titleafter {
+            content '';
+            position absolute;
+            right 0;
+            bottom -1px;
+            width 33%;
+            height 1px;
+            background-color #f2132d;
+            margin 0
+        }
+
+        .side-block  .title  h5 {
+            display block;
+            font-size 18px;
+            color #222222;
+            font-weight normal;
+            margin 0;
+        }
+
+        .side-block  .content {
+            font-size 13px;
+        }
+
+        .avatar {
+            max-width 100%;
+            height auto;
+            display block;
+            margin 5px auto;
+        }
+
+        .list ul {
+            padding 0;
+            margin 0;
+        }
+
+        .list lifirst-child {
+            padding 0 0 4px;
+            border-top 0;
+        }
+
+        .list lilast-child {
+            padding-bottom 0;
+            border-bottom 0
+        }
+
+        .list li {
+            position relative;
+            display block;
+            padding 4px 0;
+            border-top 1px dashed #ebebeb
+        }
+
+        .list li a {
+            display block;
+            color #222222;
+            font-size 14px;
+            text-transform capitalize;
+            transition color .17s;
+        }
+
+        .list li abefore {
+            content ;
+            float right;
+            color #222222;
+            margin 1px 0 0 3px;
+        }
+
+        .list li ahover {
+            color #f2132d;
+        }
+
+        .cloud li {
+            display inline-block;
+            margin 0 5px 5px 0;
+        }
+
+        .cloud li a {
+            display block;
+            height 24px;
+            background-color #f9f9f9;
+            color #888;
+            font-size 13px;
+            line-height 21px;
+            padding 0 7px;
+            border 1px solid rgba(155, 155, 155, 0.2);
+            border-radius 20px;
+            transition all .17s ease;
+        }
+
+        .cloud li ahover {
+            background-color #f2132d;
+            color #fff
+        }
+
+        .text-center {
+            text-align center;
+        }
+
+        .text-left {
+            text-align left;
+        }
+
+        #footer {
+            clear both;
+            background-color #fff;
+            box-shadow 0 0 4px 0 rgba(0, 0, 0, 0.07);
+            padding 15px;
+        }
+
+
+        @media only screen and (max-width 732px) {
+            #main, #side {
+                width 100%;
+            }
+        }
